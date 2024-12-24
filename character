@@ -1,1 +1,19 @@
+class Character:
+    def __init__(self, name, description,current_room,msg):
+      
+        self.name = name
+        self.description = description
+        self.current_room = current_room 
+        self.msg = msg
 
+    def __str__(self):
+       
+       
+        
+        return f"{self.name} : {self.description} ({self.current_room}) ({self.msg})"
+
+
+
+
+if __name__ == "__main__": 
+    print ('ok')
